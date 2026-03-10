@@ -1,1 +1,52 @@
 /* Soluzione qui */
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+  /* header */
+  #topbar {
+    justify-content: flex-start;
+  }
+
+  /* contenuto principale */
+  main {
+    padding: 40px;
+  }
+
+  /* titolo ricetta */
+  .recipe-origin {
+    display: inline;
+  }
+
+  .recipe-name {
+    font-size: 2rem;
+  }
+
+  /* informazioni ricetta a griglia */
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .quick-notes li {
+    width: calc((100% - 40px) / 3);
+    margin: 0;
+  }
+
+  /* bottoni social più larghi */
+  .social-networks .btn {
+    flex: 1;
+  }
+
+  /* banner visibile */
+  .ads {
+    display: block;
+  }
+
+  /* immagine affiancata al testo */
+  .presentation img {
+    float: left;
+    margin: 0 15px 10px 0;
+  }
+}
